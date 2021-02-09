@@ -1,0 +1,33 @@
+body {
+	margin:0;
+	color:#edf3ff;
+	background:#c8c8c8;
+	background:url(../images/material-design-4k-2048x1152.jpg) fixed;
+	background-size: cover;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+	width: 100%;
+	margin:auto;
+	max-width:900px;
+	min-height:600px;
+	position:relative;
+	background:url(../images/material-1-1000x563.jpg) no-repeat center;
+	background-size: cover;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(0,0,0,0.5);
+}
+
+
+
